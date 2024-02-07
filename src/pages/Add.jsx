@@ -16,7 +16,7 @@ function Add() {
             return false
         } else {
             try {
-                let { data } = await axios.post(`https://reactjs-f8080-default-rtdb.firebaseio.com/user.json`, {
+                let { data } = await axios.post(`https://fir-e32d4-default-rtdb.asia-southeast1.firebasedatabase.app/user.json`, {
                     obj
                 })
                 setemail("")
