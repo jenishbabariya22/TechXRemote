@@ -16,7 +16,7 @@ function Add() {
             return false
         } else {
             try {
-                let { data } = await axios.post(`https://fir-e32d4-default-rtdb.asia-southeast1.firebasedatabase.app/user.json`, {
+                let { data } = await axios.post(`https://fir-data-21482-default-rtdb.asia-southeast1.firebasedatabase.app/user.json`, {
                     obj
                 })
                 setemail("")
@@ -31,6 +31,7 @@ function Add() {
                 return false
             }
         }
+        alert("Record Succesfully Submited")
     }
     return (
         <div>
